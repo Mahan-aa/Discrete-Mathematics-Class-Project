@@ -6,7 +6,7 @@ A from-scratch implementation of the **RSA asymmetric cryptosystem** in plain C1
 - **Public/private key computation** using the **Extended Euclidean Algorithm** (modular multiplicative inverse)
 - **Encryption and decryption of numeric text** (bytes packed into integer blocks)
 
-> ⚠️ **Educational only.** This is *textbook* RSA with a modulus of at most 64 bits. It can be factored in milliseconds and has no padding. Never use it to protect real data.
+> **Educational only.** This is *textbook* RSA with a modulus of at most 64 bits. It can be factored in milliseconds.
 
 ## Quick start
 
